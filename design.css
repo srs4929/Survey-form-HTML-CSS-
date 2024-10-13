@@ -1,0 +1,93 @@
+
+
+body
+{
+    background-image:url("images/background.jpg");
+    width:100%;
+    height:auto;
+    background-repeat:no repeat;
+    background-size:cover;
+    color:white;
+    font-family:'Raleway',sans-serif;
+    text-align:center;
+}
+
+div
+{
+    margin:10px;
+   
+}
+
+form
+{
+    text-align:left;
+    max-width:500px;
+    padding:20px;
+    border:2px solid white;
+    border-radius:10px ;
+    margin:auto;
+    background-color: rgba(0, 0, 139, 0.5); 
+}
+input
+{
+  padding:5px;
+  border:2px solid sky blue;
+  border-radius:5px;
+}
+.input-element
+{
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+   
+}
+
+select
+{
+    padding:5px;
+    font-family:'Raleway',sans-serif;
+    border:2px solid sky blue;
+    border-radius:5px;
+}
+placeholder
+{
+    font-family:'Raleway',sans-serif;
+}
+ input[type="checkbox"]
+ {
+    width:15px;
+    height:15px;
+    accent-color:green;
+ }
+
+ input[type="radio"]
+ {
+    accent-color:green;
+ }
+
+ textarea
+ {
+     width:100%;
+     padding:5px;
+     border:2px solid sky blue;
+     border-radius:5px;
+     height:70px;
+ }
+
+ #submit {
+    background: #87CEEB;
+    color: blue;
+    padding: .7rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+    font-family:'Raleway',sans-serif;
+}
+  
+
+  #submit:hover {
+    background: rgb(9, 168, 89);
+    color:white;
+  }
+ 
+
+
